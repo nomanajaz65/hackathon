@@ -1,0 +1,43 @@
+.profile-section{
+    background-color: #F5F5F5;
+    padding: 1rem 3rem;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}
+.user-name{
+    padding: 1rem 0;
+}
+.password-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+}
+.password-container input{
+     border: 1px solid #ADB5BD;
+     outline: none;
+    border-radius: .3rem;
+    padding: .7rem;
+    
+}
+.button{
+    font-size: 17px;
+    padding: .5rem;
+    background-color: #7749F8;
+    border: none;
+    color: white;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 768px){
+
+    .password-container{
+        width: 100%;
+    }
+    .profile-section{
+        padding: 1rem;
+    }
+}

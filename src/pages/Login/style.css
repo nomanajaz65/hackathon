@@ -1,0 +1,66 @@
+
+.navbar{
+    background: #7749F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 3rem;
+}
+
+.navbar h1{
+    font-size: 15px;
+    color: white;
+}
+
+.navbar .link a{
+    text-decoration: none;
+    color: white;
+}
+
+.heading{
+    background-color: white;
+    padding: 1rem 3rem;
+}
+
+.hero{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9rem;
+    /* height: 100vh; */
+}
+.hero form{
+    width: 50%;
+    background-color: white;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.hero form input{
+    outline: none;
+    border-radius: .5rem;
+    border: 1px solid gray;
+    background-color: white;
+    padding: .5rem;
+    margin-bottom: .7rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.homepage-link a{
+
+    color: white;
+    text-decoration: none;
+}
+.homepage-link{
+    background-color: #7749F8;
+    border: none;
+    border-radius: .5rem;
+    text-align: center;
+    padding: .5rem;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}

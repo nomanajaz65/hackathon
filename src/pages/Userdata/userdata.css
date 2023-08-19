@@ -1,0 +1,17 @@
+.link-all-blog{
+    padding: 1rem 3rem;
+    background-color: white;
+}
+.link-all-blog a{
+    text-decoration: none;
+    color: #7749F8;
+    font-size: 25px;
+    font-weight: 700;
+}
+.user-blog{
+    background-color: #00000017;
+    padding: 1rem 3rem;
+}
+.user-blog h2{
+    color: #152536;
+}
